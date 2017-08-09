@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1000px;
+    background-color: black;
+    margin: 0 auto;
+}
+.tooltip{
+    position: relative;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.puerta{
+    
+    position: absolute;   
+    visibility: hidden;
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    
+}
+#puerta{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top:915px;
+    left: 483px;
+}
+
+#puerta:hover .puerta{
+    visibility: visible;
+}
+.galana{
+    
+    position: absolute;   
+    visibility: hidden;
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+}
+#galana{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top:700px;
+    left: 510px;
+}
+
+#galana:hover .galana{
+    visibility: visible;
+}
+.ganan{
+    
+    position: absolute;   
+    visibility: hidden;
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+}
+#ganan{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top:1022px;
+    left: 124px;
+}
+
+#ganan:hover .ganan{
+    visibility: visible;
+}
+.monolito{
+    
+    position: absolute;   
+    visibility: hidden;
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+}
+#monolito{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top:495px;
+    left: 463px;
+}
+
+#monolito:hover .monolito{
+    visibility: visible;
+}
+.puntos>p{
+    color: white;
+}
+.puntos:hover .ganan{
+   visibility: visible; 
+}
+.puntos:hover .monolito{
+   visibility: visible; 
+}.puntos:hover .galana{
+   visibility: visible; 
+}.puntos:hover .puerta{
+   visibility: visible; 
+}
