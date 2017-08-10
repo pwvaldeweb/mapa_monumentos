@@ -25,13 +25,14 @@ body{
     
 }
 #puerta{
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    color: red;
+    font-size:  1.5em;
     position: absolute;
     top:915px;
-    left: 483px;
+    left: 474px;
 }
 
 #puerta:hover .puerta{
@@ -46,13 +47,14 @@ body{
     text-align: center;
 }
 #galana{
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    color: red;
+    font-size:  1.5em;
     position: absolute;
-    top:700px;
-    left: 510px;
+    top:695px;
+    left: 500px;
 }
 
 #galana:hover .galana{
@@ -67,13 +69,14 @@ body{
     text-align: center;
 }
 #ganan{
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    color: red;
+    font-size:  1.5em;
     position: absolute;
-    top:1022px;
-    left: 124px;
+    top:1018px;
+    left: 115px;
 }
 
 #ganan:hover .ganan{
@@ -88,13 +91,16 @@ body{
     text-align: center;
 }
 #monolito{
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    color: red;
+    font-size:  1.5em;
     position: absolute;
     top:495px;
-    left: 463px;
+    left: 454px;
 }
 
 #monolito:hover .monolito{
