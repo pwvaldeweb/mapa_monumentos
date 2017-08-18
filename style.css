@@ -15,8 +15,14 @@ body{
     text-align: center;
     margin: 0 auto;
 }
+.container1{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: dimgray;
+}
+
 .puerta{
-    
     position: absolute;   
     visibility: hidden;
     background-color: burlywood;
@@ -112,3 +118,32 @@ body{
 .puntos>p{
     color: white;
 }
+iframe{
+    overflow: hidden;
+    border: white 6px solid;
+    text-align: center;
+    display: block;
+    margin: 0 auto;    
+}
+#puerta:target{
+   color: green;
+    
+}
+#monolito:target{
+   color: green;
+   
+}
+#ganan:target{
+   color: green;
+    transform: 
+}
+#galana:target{
+   color: green; 
+}
+/*.direcciones a{
+    display: inline-block;
+}*/
+.direcciones{
+    display: inline-block;
+}
+
